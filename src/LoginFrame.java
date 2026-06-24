@@ -70,8 +70,6 @@ public class LoginFrame extends JFrame {
                 if (player != null) {
                     JOptionPane.showMessageDialog(null, "Welcome, " + player.getUsername() + "!", "Login Successful", JOptionPane.INFORMATION_MESSAGE);
                     MainMenuFrame menuFrame = new MainMenuFrame(player);
-                    menuFrame.setBounds(getBounds());
-                    menuFrame.setExtendedState(getExtendedState());
                     menuFrame.setVisible(true);
                     dispose();
                 } else {

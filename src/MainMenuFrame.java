@@ -12,7 +12,8 @@ public class MainMenuFrame extends JFrame {
         this.currentPlayer = player;
 
         setTitle("Tic-Tac-Toe - Main Menu");
-        setSize(400, 350);
+        setMinimumSize(new java.awt.Dimension(450, 550));
+        setSize(450, 550);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setResizable(true);
@@ -38,7 +39,7 @@ public class MainMenuFrame extends JFrame {
 
         JPanel btnPanel = new JPanel(new GridLayout(4, 1, 0, 15));
         btnPanel.setBackground(new Color(30, 30, 30));
-        btnPanel.setBorder(BorderFactory.createEmptyBorder(20, 60, 20, 60));
+        btnPanel.setBorder(BorderFactory.createEmptyBorder(10, 60, 10, 60));
 
         btnStartGame = createButton("Start Game", new Color(0, 200, 150));
         btnStatistics = createButton("My Statistics", new Color(70, 130, 180));
