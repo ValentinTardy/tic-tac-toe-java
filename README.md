@@ -92,7 +92,7 @@ _(Add screenshots of the running application here)_
 | student5 | 12345    |
 
 ## Video Link
-YouTube: _(Add your YouTube link here)_
+YouTube: https://youtu.be/EoZcLZHc_Jo
 
 ## GitHub Link
-GitHub: _(Add your GitHub link here)_
+GitHub: https://github.com/ValentinTardy/tic-tac-toe-java
